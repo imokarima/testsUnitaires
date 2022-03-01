@@ -36,6 +36,14 @@ public class Color {
         return bleu;
     }
 
+    public String getHexValue() {
+        return hexValue;
+    }
+
+    public void setHexValue(String hexValue) {
+        this.hexValue = hexValue;
+    }
+
     public void setRouge(int rouge) throws IllegalArgumentException{
         if(rouge>=0 || rouge<=255){
             this.rouge = rouge;
